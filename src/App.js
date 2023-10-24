@@ -23,7 +23,7 @@ function App() {
   }, []);
   return (
     <div className="App">
-      {/* <Header /> */}
+      <Header />
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route path="/" element={<Home movies={movies} />} />
